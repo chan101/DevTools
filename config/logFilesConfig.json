@@ -1,0 +1,34 @@
+{
+    "FRONTEND_APPLICATION": [
+        {
+            "filename": "communication.log",
+            "path": "frontEnd_logs/"
+        },
+        {
+            "filename": "runtime.log",
+            "path": "frontEnd_logs/"
+        },
+        {
+            "filename": "server.log",
+            "path": "frontEnd_logs/"
+        }
+    ],
+    "BACKEND_APPLICATION": [
+        {
+            "filename":"Error.log",
+            "path":"backEnd_logs/webservice/"
+        },
+        {
+            "filename":"Debug.log",
+            "path":"backEnd_logs/webservice/"
+        },
+        {
+            "filename":"api1.log",
+            "path":"backEnd_logs/restlogs/"
+        },
+        {
+            "filename":"api2.log",
+            "path":"backEnd_logs/restlogs/"
+        }
+    ]
+}

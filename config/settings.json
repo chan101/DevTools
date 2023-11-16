@@ -1,0 +1,10 @@
+{
+    
+    "FrontEndPort":3000,
+    "BackEndPort":8080,
+    "LogViewFontSize":"14",
+    "DarkTheme":true,
+    "WordWrap":false,
+    "XMLFormat":false,
+    "JSONFormat":false
+}

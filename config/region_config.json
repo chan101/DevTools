@@ -1,0 +1,24 @@
+[
+    {
+        "name":"DEV",
+        "ssh":{
+            "ip":"10.0.0.21",
+            "port":8022,
+            "path":"~/dummyServer/logs/",
+            "JAVA_HOME":"/JDK_PATH/",
+            "user":"chan",
+            "password":"chan"
+        }
+    },
+    {
+        "name":"IAT",
+        "ssh":{
+            "ip":"10.0.0.22",
+            "port":8022,
+			"path":"~/dummyServer/logs/",
+            "JAVA_HOME":"/JDK_PATH/",
+            "user":"chan",
+            "password":"chan"
+        }
+    }
+]

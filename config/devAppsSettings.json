@@ -1,0 +1,11 @@
+{
+    "FRONTEND_APPLICATION":{
+        "warlist":"WAR_ARTIFACTORY_URL_LIST.XML"
+    },
+    "DevSSHConfig":{
+        "host": "10.0.0.21",
+        "port": 8022,
+        "username": "chan",
+        "password": "chan"
+      }
+}

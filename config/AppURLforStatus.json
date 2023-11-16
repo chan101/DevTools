@@ -1,0 +1,20 @@
+[
+    {
+        "name": "DEVELOPMENT_SERVER",
+        "urls": {
+			"BACKEND_APPLICATION": "http://10.0.0.21:3001",
+            "FRONTEND_APPLICATION": "http://10.0.0.21:3002",
+			"REST_API2": "http://10.0.0.21:3003",
+            "REST_API1": "http://10.0.0.21:3004"
+        }
+    },
+	{
+        "name": "QA_SERVER",
+        "urls": {
+			"BACKEND_APPLICATION": "http://10.0.0.22:3001",
+            "FRONTEND_APPLICATION": "http://10.0.0.22:3002",
+			"REST_API2": "http://10.0.0.22:3003",
+            "REST_API1": "http://10.0.0.22:3004"
+        }
+    }
+]

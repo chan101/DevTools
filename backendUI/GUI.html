@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="styles.css" rel="stylesheet">
+  <link href="bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body class="body">
+  <button id="open-button" type="button" class="btn btn-success btn-lg">Open Web Application</button>
+  <br />
+  <button id="open-button1" type="button" class="btn btn-primary" value="AppPorts.json">App Status Config </button>
+  <br />
+  <button id="open-button2" type="button" class="btn btn-primary" value="bcTools_config.json">FRONTEND_APPLICATION Tools Config</button>
+  <br />
+  <button id="open-button3" type="button" class="btn btn-primary" value="devAppsSettings.json">Dev Apps Config</button>
+  <br />
+  <button id="open-button4" type="button" class="btn btn-primary" value="region_config.json">Regions Config</button>
+
+  <script>
+    const button = document.querySelector("#open-button");
+    button.addEventListener("click", function () {
+      fetch('http://localhost:8080/gui')
+        .then(response => response.json())
+        .then(data => console.log(data))
+        .catch(error => console.error(error));
+    });
+
+    for(let i=1;i<=4;i++){
+      const button = document.querySelector("#open-button"+i);
+      button.addEventListener("click", function (e) {
+        const configName = e.target.value;
+        fetch(`http://localhost:8080/openconfig?config=${configName}`)
+          .then(response => response.json())
+          .then(data => console.log(data))
+          .catch(error => console.error(error));
+      });
+    }
+  </script>
+
+
+</body>
+
+</html>

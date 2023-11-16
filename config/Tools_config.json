@@ -1,0 +1,4 @@
+{
+    "local_api_url_file" : "API_URL_PATH",
+    "local_certificate_file" : "LOCAL_JDK_CERTIFICATE_PATH"
+}
